@@ -7,11 +7,10 @@
     android:orientation="vertical"
     android:background="@color/teal_700">
 
-<androidx.constraintlayout.widget.ConstraintLayout
-
-    android:id="@+id/recyview_home"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyview_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
     />
 
     <ProgressBar
